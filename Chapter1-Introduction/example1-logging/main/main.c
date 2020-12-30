@@ -7,6 +7,11 @@
 void app_main(void)
 {
 
+
+/*
+    In this example, we will learn how logging works for ESP-IDF
+    
+*/
     printf("[+] This is a initialization\n");
     int i = 0;
     while (1)
