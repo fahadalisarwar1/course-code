@@ -8,13 +8,13 @@ E:/course-code/Chapter1-Introduction/example1-logging/build/CMakeFiles/flash.dir
 E:/course-code/Chapter1-Introduction/example1-logging/build/CMakeFiles/monitor.dir
 E:/course-code/Chapter1-Introduction/example1-logging/build/CMakeFiles/encrypted-flash.dir
 E:/course-code/Chapter1-Introduction/example1-logging/build/CMakeFiles/_project_elf_src.dir
-E:/course-code/Chapter1-Introduction/example1-logging/build/CMakeFiles/list_install_components.dir
-E:/course-code/Chapter1-Introduction/example1-logging/build/CMakeFiles/blink.elf.dir
+E:/course-code/Chapter1-Introduction/example1-logging/build/CMakeFiles/logging.elf.dir
 E:/course-code/Chapter1-Introduction/example1-logging/build/CMakeFiles/size.dir
 E:/course-code/Chapter1-Introduction/example1-logging/build/CMakeFiles/size-files.dir
 E:/course-code/Chapter1-Introduction/example1-logging/build/CMakeFiles/size-components.dir
 E:/course-code/Chapter1-Introduction/example1-logging/build/CMakeFiles/edit_cache.dir
 E:/course-code/Chapter1-Introduction/example1-logging/build/CMakeFiles/rebuild_cache.dir
+E:/course-code/Chapter1-Introduction/example1-logging/build/CMakeFiles/list_install_components.dir
 E:/course-code/Chapter1-Introduction/example1-logging/build/CMakeFiles/install/local.dir
 E:/course-code/Chapter1-Introduction/example1-logging/build/CMakeFiles/install.dir
 E:/course-code/Chapter1-Introduction/example1-logging/build/CMakeFiles/install/strip.dir

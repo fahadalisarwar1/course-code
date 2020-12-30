@@ -1,26 +1,28 @@
 
 #include <stdio.h>
-#include "freertos/FreeRTOS.h"
-#include "freertos/task.h"
-
+#include "esp_log.h"
 
 void app_main(void)
 {
 
-
 /*
     In this example, we will learn how logging works for ESP-IDF
-    
+
 */
-    printf("[+] This is a initialization\n");
-    int i = 0;
-    while (1)
-        {
-        printf("[+] This is a loop number %d\n", i++);
-        vTaskDelay(1000/ portTICK_PERIOD_MS);
-        
-        /* code */
-    }
-    
+    // you can set log levels d
+    // esp_log_level_set("LOG", ESP_LOG_VERBOSE);
+    ESP_LOGE("LOG", "This is an error log");  
+    ESP_LOGW("LOG", "This is a warning log");
+    ESP_LOGI("LOG", "This is info log");   
+    ESP_LOGD("LOG", "This is debug log");
+    ESP_LOGV("LOG", "this is verbose"); 
+
+    ESP_LOGW("LOG2", "this is log 2");
+    ESP_LOGD("LOG2", "debug");
+
+    // TAGS are used for identifying different parts of the code. 
+   
+
+ 
 
 }
