@@ -20,7 +20,7 @@ void app_main(void)
     // We want the LED to blink so it will be output in our case.
     gpio_set_direction(LED_PIN, GPIO_MODE_OUTPUT);   
 
-    // Now we simply toggle the pin after a delay
+    
     int state = 1; // ON state
     while (1)
     {
@@ -29,6 +29,7 @@ void app_main(void)
         printf("LED is %d\n", state);
         vTaskDelay(1000/portTICK_PERIOD_MS);
         
+        // Now we simply toggle the pin after a delay
         state = !state; // Toggle the LED
         /* code */
     }
