@@ -1,0 +1,40 @@
+{
+    "env": {
+        "MESSAGE": " MAC AND LINUX USERS!!!- change path from c:/... to ~/esp/... or as approirate for your enviroment",
+        "IDF_TOOLS": "C:/users/fahad/.espressif/tools",
+        "IDF_PATH": "c:/users/fahad/esp-idf"
+    },
+    "configurations": [
+        {
+            "name": "Win32",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "${IDF_PATH}",
+                    "${IDF_TOOLS}"
+                ],
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Users/Fahad/esp-idf/components/freertos/include",
+                "C:/Users/Fahad/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.4.0/include",
+                "C:/Users/Fahad/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/include",
+                "C:/Users/Fahad/esp-idf/components/esp_common/include",
+                "C:/Users/Fahad/esp-idf/components/freertos/xtensa/include",
+                "C:/Users/Fahad/esp-idf/components/xtensa/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "${default}",
+            "compilerPath": "C:/Users/Fahad/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
+        }
+    ],
+    "version": 4
+}

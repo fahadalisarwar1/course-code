@@ -935,3 +935,5 @@
 66686	66737	6311195203297667	CMakeFiles/blink.elf.dir/project_elf_src.c.obj	7db2b7d02170f4cf
 66738	67413	6311195209891868	blink.elf	8a3b227e3ecaef3a
 67413	67660	6311195212466639	.bin_timestamp	b670d825ac3bef5f
+# ninja log v5
+1	151047	0	CMakeFiles/confserver	e4017ee95404939c
