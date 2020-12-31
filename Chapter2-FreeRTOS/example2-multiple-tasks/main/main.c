@@ -28,6 +28,9 @@ void app_main(void)
                 // Tasks shouldn't exit i.e the control shouldn't return from tasks otherwise it will put 
                 // microcontroller in panic mode and it will keep resetting 
                 // This an exiting task meaning that control goes out of the task when it finishes,
+                void task1(){
+                    printf("dangerous task\n");
+                }
         Example 2: Exiting task with Delete - NOT RECOMMENDED
                 void task1(){
                     printf("This is exiting task 1\n");
@@ -48,7 +51,7 @@ void task1(){
 
     while(1){
         printf("This is task 1\n");
-    vTaskDelay(1000/portTICK_PERIOD_MS);
+        vTaskDelay(1000/portTICK_PERIOD_MS);
     }
 }
 
