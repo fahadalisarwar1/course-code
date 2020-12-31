@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/course-code/Chapter2-FreeRTOS/example5-notifications/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "E:/course-code/Chapter2-FreeRTOS/example5-notifications/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "E:/course-code/Chapter2-FreeRTOS/example5-notifications/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "E:/course-code/Chapter2-FreeRTOS/example5-notifications/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "E:/course-code/Chapter2-FreeRTOS/example5-notifications/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "E:/course-code/Chapter2-FreeRTOS/example5-notifications/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "E:/course-code/Chapter2-FreeRTOS/example5-notifications/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		},
+		{
+			"file" : "E:/course-code/Chapter2-FreeRTOS/example5-notifications/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "E:/course-code/Chapter2-FreeRTOS/example5-notifications/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "E:/course-code/Chapter2-FreeRTOS/example5-notifications/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}
