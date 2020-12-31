@@ -5,6 +5,7 @@
 
 
 void task1();
+void task2();
 
 void app_main(void)
 {
@@ -12,6 +13,8 @@ void app_main(void)
    // In this example, we are going to see how we can run tasks in FREE RTOS.
    
     xTaskCreate(&task1, "Task 1", 2048, NULL, 2, NULL);
+    xTaskCreate(&task2, "Task 2", 2048, NULL, 2, NULL);
+
     /*
         TaskFunction_t pvTaskCode:          The function to be called for creating the task
         const char *const pcName:           Custom name of the task
@@ -46,5 +49,13 @@ void task1(){
     while(1){
         printf("This is task 1\n");
     vTaskDelay(1000/portTICK_PERIOD_MS);
+    }
+}
+
+void task2(){
+
+    while(1){
+        printf("This is task 2\n");
+        vTaskDelay(1000/portTICK_PERIOD_MS);
     }
 }

@@ -953,3 +953,14 @@
 360	2067	6311178924752618	esp-idf/esp32/ld/esp32.project.ld	24dd1a312e8e6c44
 2067	2785	6311178931958841	blink.elf	1c749298a3f9bcf2
 2786	3022	6311178934452266	.bin_timestamp	3a94143b081684db
+52	108	6311174383167246	bootloader-prefix/src/bootloader-stamp/bootloader-build	89a6cb1a174186a1
+52	108	6311174383167246	bootloader/bootloader.elf	89a6cb1a174186a1
+52	108	6311174383167246	bootloader/bootloader.bin	89a6cb1a174186a1
+52	108	6311174383167246	bootloader/bootloader.map	89a6cb1a174186a1
+55	217	6311187127929363	esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj	fafda748c398ef28
+218	290	6311187128598375	esp-idf/app_update/libapp_update.a	2fe9f4c77d556cbe
+290	516	6311187130907760	esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj	6aba5f110c2c0cf7
+516	583	6311187131594599	esp-idf/main/libmain.a	a0f979be5f5d91a7
+583	2261	6311187148129468	esp-idf/esp32/ld/esp32.project.ld	24dd1a312e8e6c44
+2261	2978	6311187155409555	blink.elf	1c749298a3f9bcf2
+2978	3218	6311187157937001	.bin_timestamp	3a94143b081684db
