@@ -1,0 +1,5 @@
+source "C:/Users/Fahad/esp-idf/components/app_update/Kconfig.projbuild"
+source "C:/Users/Fahad/esp-idf/components/bootloader/Kconfig.projbuild"
+source "C:/Users/Fahad/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "C:/Users/Fahad/esp-idf/components/partition_table/Kconfig.projbuild"
+source "E:/course-code/Chapter2-FreeRTOS/example1-creatingTasks/main/Kconfig.projbuild"
