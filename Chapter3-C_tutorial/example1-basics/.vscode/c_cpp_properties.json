@@ -2,7 +2,7 @@
     "env": {
         "MESSAGE": " MAC AND LINUX USERS!!!- change path from c:/... to ~/esp/... or as approirate for your enviroment",
         "IDF_TOOLS": "C:/users/fahad/.espressif/tools",
-        "IDF_PATH": "c:/users/fahad/esp/esp-idf"
+        "IDF_PATH": "C:/users/fahad/esp-idf"
     },
     "configurations": [
         {
@@ -48,7 +48,7 @@
                 "${IDF_PATH}/components/log/include",
                 "${IDF_PATH}/components/esp_http_client/include",
                 "${IDF_PATH}/examples/common_components/protocol_examples_common/include",
-                "${IDF_PATH}/components/**",
+                "${IDF_PATH}/components/",
                 "${IDF_PATH}/components/bt/include",
                 "${IDF_PATH}/components/bt/host/bluedroid/api/include/api",
                 "${IDF_PATH}/components/bt/host/nimble/esp-hci/include",
@@ -60,10 +60,9 @@
                 "${IDF_PATH}/components/bt/host/nimble/port/include",
                 "${IDF_PATH}/components/bt/host/nimble/nimble/nimble/host/services/gap/include",
                 "${IDF_PATH}/components/bt/host/nimble/nimble/nimble/host/services/gatt/include",
-                "${IDF_PATH}/components/esp32/include",
                 "C:/Users/fahad/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/include",
-                "C:/Users/fahad/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/include",
-                "C:/Users/fahad/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.2.0/include"
+                "C:/Users/fahad/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.2.0/include",
+                "C:/Users/fahad/esp-idf/components/soc/esp32/include"
             ],
             "defines": [
                 "_DEBUG",
