@@ -57,7 +57,7 @@ void app_main(void)
     ESP_ERROR_CHECK(esp_event_loop_create_default());
 
    
-   esp_netif_t *sta_netif = esp_netif_create_default_wifi_sta();
+   esp_netif_create_default_wifi_sta();
     /*
         Creates default WIFI STA. In case of any init error this API aborts.
         Return
